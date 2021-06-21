@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="16" class="java.beans.XMLDecoder">
+ <object class="hw1.User">
+  <void property="country">
+   <object class="hw1.Country">
+    <void property="name">
+     <string>Armenia</string>
+    </void>
+   </object>
+  </void>
+  <void property="email">
+   <string>abc@mail.ru</string>
+  </void>
+  <void property="phones">
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="hw1.Phone">
+      <void property="country">
+       <string>Armenia</string>
+      </void>
+      <void property="number">
+       <int>123456</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="hw1.Phone">
+      <void property="country">
+       <string>USA</string>
+      </void>
+      <void property="number">
+       <int>54356</int>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void property="username">
+   <string>login</string>
+  </void>
+ </object>
+</java>
