@@ -12,7 +12,11 @@ public class TimerThread extends Thread {
 
     @Override
     public void run() {
+        boolean first = true;
         while(min>=0){
+            if(!first)
+                sec = 59;
+            first = false;
             for(int i = sec; i>=0; i--) {
                 System.out.println(min + ":" + sec--);
                 try {
