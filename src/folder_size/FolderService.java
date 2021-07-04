@@ -23,6 +23,7 @@ public class FolderService {
 
             }
         }
+        //System.out.println(size);
         return size;
 
     }
