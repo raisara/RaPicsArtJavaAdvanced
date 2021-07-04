@@ -1,7 +1,5 @@
 package timer;
 
-import timerGUI.GUI;
-
 public class TimerThread extends Thread {
 
     private int min;
