@@ -5,10 +5,9 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 
 public class FolderService {
+    public static long size = 0;
+
     public static long getFolderSize(File file) {
-        //Path path = Paths.get(dir);
-        //System.out.println(path);
-        long size = 0;
         File[] files = file.listFiles();
 
         if(files != null){
@@ -27,6 +26,5 @@ public class FolderService {
         java.io.File file = new java.io.File(dir);
         return file;
     }
-
 
 }
